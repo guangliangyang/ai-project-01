@@ -1,8 +1,11 @@
 
 1. **Introduction**
-    * Purpose: Briefly describe the project purpose (e.g., comparing reinforcement learning and planning/searching algorithms for game playing).
-    * Algorithms: Introduce the algorithms you'll implement and compare (e.g., Q-learning, DQN, Minimax, Alpha-beta, MCTS, Random).
-    * Game: Mention the game you chose for evaluation (e.g., Tic-Tac-Toe or another game).
+    
+This report explores the effectiveness of two fundamental AI approaches in game strategy: Reinforcement Learning (RL) and Planning algorithms. The study specifically compares the Q-learning algorithm with the Minimax algorithm incorporating alpha-beta pruning, in the context of Tic-Tac-Toe. The simplicity and deterministic nature of Tic-Tac-Toe provide an ideal environment to assess these methods. Key parameters such as learning rate, discount factor, exploration rate, training episodes, and opponent strategies were varied to evaluate their impact on performance. 
+
+The experimental findings show that Minimax consistently achieved optimal outcomes by efficiently exploring the game tree and using pruning techniques. However, with appropriate tuning and training against varied opponents, Q-learning was able to achieve a draw rate of 100\% against the optimized Minimax player. Additionally, Q-learning achieved a win rate of up to 98\% against random players, highlighting its adaptability to dynamic scenarios. This comparison indicates that while Minimax is optimal for fully observable and small-scale games, Q-learning’s flexibility offers potential in more complex or dynamic environments.
+
+Future research could explore hybrid approaches, such as combining RL with Monte Carlo Tree Search (MCTS), or employing advanced models like Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO) to handle larger and more complex game scenarios.
 
 2. **Import Libraries**
     * Import necessary libraries like numpy, matplotlib, tensorflow.
