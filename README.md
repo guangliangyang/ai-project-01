@@ -8,7 +8,7 @@ The experimental findings show that Minimax consistently achieved optimal outcom
 Future research could explore hybrid approaches, such as combining RL with Monte Carlo Tree Search (MCTS), or employing advanced models like Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO) to handle larger and more complex game scenarios.
 
 2. **Import Libraries**
-    * Import necessary libraries like numpy, matplotlib, tensorflow.
+    * Import necessary libraries like numpy, matplotlib.
 
 3. **Experimental Methods**
     * Game Setup: Define Tic-Tac-Toe game environment
